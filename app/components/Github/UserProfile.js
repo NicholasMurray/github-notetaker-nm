@@ -5,12 +5,12 @@ var UserProfile = React.createClass({
     username: React.PropTypes.string.isRequired,
     bio: React.PropTypes.object.isRequired
   },
-  render: function(){
+  render: function() {
+    console.log('BIO', this.props.bio);
     return (
       <div>
         <p>USER PROFILE</p>
         <p> Username: {this.props.username} </p>
-        <p> Bio: {this.props.bio.name} </p>
       </div>
     )
   }
