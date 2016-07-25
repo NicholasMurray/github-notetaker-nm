@@ -1,7 +1,7 @@
 {
   "name": "egghead-notetaker-updates",
   "version": "1.0.0",
-  "description": "[Build Your First React App](https://egghead.io/series/build-your-first-react-js-application) is an egghead lesson series.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
